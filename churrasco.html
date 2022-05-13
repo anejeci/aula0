@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>churrasco</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script>
+        let homens,mulheres,pessoas,bebidas,consumoHomens,consumoMulheres,consumoTotal,carvao;
+        homens=parseInt(prompt("quantos homens?"));
+        mulheres=parseInt(prompt("quantas mulheres?"));
+        pessoas=homens+mulheres;
+        bebidas=(pessoas*1.5)/2;//garrafa 2Lt;
+        consumoHomens=homens*400;
+        consumoMulheres=mulheres*300;
+        consumoTotal=consumoHomens+consumoMulheres;
+        carvao=consumoTotal/6000;
+       // alert("total de pessoas: " + pessoas);
+       // alert("consumo masculino: " + consumoHomens + " gramas de carne ");
+       // alert("consumo feminino: " + consumoMulheres + " gramas de carne ");
+        alert("consumo total de refrigerantes: " + Math.ceil(bebidas) + " garrafas de refrigerante");
+        //alert("consumo total de carne: " + consumoTotal + " gramas de carne ");
+        alert("consumo de carvao: " + Math.ceil(carvao));
+      //para assar 6kg de carne precisa de 1 saco de cavão, cada saco pesa 5kg
+      </script>
+</head>
+<body>
+    
+</body>
+</html
